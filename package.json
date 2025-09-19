@@ -1,0 +1,42 @@
+{
+    "name": "sanofi",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc -b && vite build",
+        "preview": "vite preview",
+        "lint": "prettier --write .",
+        "test": "jest"
+    },
+    "dependencies": {
+        "axios": "^1.12.2",
+        "vue": "^3.5.21"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.28.3",
+        "@babel/preset-typescript": "^7.27.1",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.5.2",
+        "@types/vue": "^1.0.31",
+        "@vitejs/plugin-vue": "^6.0.1",
+        "@vue/compiler-sfc": "^3.5.21",
+        "@vue/test-utils": "^2.4.6",
+        "@vue/tsconfig": "^0.8.1",
+        "babel-jest": "^26.6.3",
+        "element-plus": "^2.11.2",
+        "eslint": "^9.35.0",
+        "jest": "^26.6.3",
+        "jest-environment-jsdom": "^26.6.2",
+        "mockjs": "^1.1.0",
+        "pinia": "^3.0.3",
+        "prettier": "^3.6.2",
+        "ts-jest": "^26.5.6",
+        "ts-node": "^10.9.2",
+        "typescript": "~5.8.3",
+        "vite": "^7.1.6",
+        "vite-plugin-mock": "^3.0.2",
+        "vue-jest": "^5.0.0-alpha.10",
+        "vue-tsc": "^3.0.7"
+    }
+}
